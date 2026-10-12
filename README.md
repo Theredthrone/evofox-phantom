@@ -37,9 +37,3 @@ Raw payloads are space-separated hex bytes (e.g., `07:13:7f:16:0f:00:00:00`).
 The first two bytes (`07:13`) are the report ID and length.
 The remaining bytes control the LED behavior.
 
-### Payload testing
-Use `probe.sh` to send payloads one at a time and log descriptions:
-```bash
-./probe.sh
-```
-Results are logged to `colur`.
